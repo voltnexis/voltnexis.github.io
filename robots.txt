@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://voltedgebuilds.github.io/sitemap.xml
+Sitemap: https://voltnexis.github.io/sitemap.xml
