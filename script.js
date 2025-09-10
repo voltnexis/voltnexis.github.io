@@ -7,6 +7,7 @@ const serviceUrls = {
     'timer': 'https://voltnexis.github.io/timer',
     'quotes': 'https://voltnexis.github.io/qoutes',
     'docconvert': 'https://voltnexis.github.io/tools',
+    'songs': 'https://voltnexis.github.io/songs',
     'imagetool': 'https://voltnexis.github.io/tool',
     'webcreator': 'https://voltnexis.github.io/webcreator',
     'codexaura': 'https://voltnexis.github.io/codexaura',
