@@ -19,6 +19,8 @@ Sitemap: https://voltnexis.github.io/servetracko/sitemap.xml
 Sitemap: https://voltnexis.github.io/watchandearn/sitemap.xml
 Sitemap: https://voltnexis.github.io/fixmitra/sitemap.xml
 Sitemap: https://voltnexis.github.io/provider.fixmitra/sitemap.xml
+Sitemap: https://voltnexis.github.io/web2app/sitemap.xml
+Sitemap: https://voltnexis.github.io/vnsongs/sitemap.xml
 
 # Crawl-delay
 Crawl-delay: 1
