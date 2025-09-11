@@ -178,11 +178,14 @@ body {
     justify-content: center;
     margin-right: 0.75rem;
     animation: logoGlow 3s ease-in-out infinite;
+    overflow: hidden; /* Ensures image doesn't spill out */
 }
 
-.logo-icon i {
-    font-size: 1.2rem;
-    color: white;
+.logo-icon img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    filter: drop-shadow(0 0 2px white); /* Optional glow effect */
 }
 
 @keyframes logoGlow {
