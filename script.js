@@ -22,7 +22,8 @@ const serviceUrls = {
     'pureparent': 'https://voltnexis.github.io/pureparent',
     'downloader': 'https://voltnexis.github.io/downloader',
     'tools': 'https://voltnexis.github.io/tools',
-    'wandermatch': 'https://voltnexis.github.io/wandermatch'
+    'wandermatch': 'https://voltnexis.github.io/wandermatch',
+    'themes': 'https://voltnexis.github.io/themes'
 };
 
 // Loading Screen
