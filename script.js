@@ -5,17 +5,24 @@ const serviceUrls = {
     'builds': 'https://voltnexis.github.io/builds',
     'wallpapers': 'https://voltnexis.github.io/wallpapers',
     'timer': 'https://voltnexis.github.io/timer',
-    'quotes': 'https://voltnexis.github.io/qoutes',
-    'docconvert': 'https://voltnexis.github.io/tools',
+    'qoutes': 'https://voltnexis.github.io/qoutes',
+    'doconvert': 'https://voltnexis.github.io/doconvert',
     'songs': 'https://voltnexis.github.io/songs',
-    'imagetool': 'https://voltnexis.github.io/tool',
+    'imgtool': 'https://voltnexis.github.io/imgtool',
     'webcreator': 'https://voltnexis.github.io/webcreator',
     'codexaura': 'https://voltnexis.github.io/codexaura',
     'apps': 'https://voltnexis.github.io/apps',
     'servetracko': 'https://voltnexis.github.io/servetracko',
     'watchearn': 'https://voltnexis.github.io/watchandearn',
     'fixmitra': 'https://voltnexis.github.io/fixmitra',
-    'fixmitra-hub': 'https://voltnexis.github.io/provider.fixmitra'
+    'fixmitra-hub': 'https://voltnexis.github.io/provider.fixmitra',
+    'clock': 'https://voltnexis.github.io/clock',
+    'learner': 'https://voltnexis.github.io/learner',
+    'learn': 'https://voltnexis.github.io/learn',
+    'pureparent': 'https://voltnexis.github.io/pureparent',
+    'downloader': 'https://voltnexis.github.io/downloader',
+    'tools': 'https://voltnexis.github.io/tools',
+    'wandermatch': 'https://voltnexis.github.io/wandermatch'
 };
 
 // Loading Screen
