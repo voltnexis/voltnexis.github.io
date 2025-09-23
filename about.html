@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About VoltNexis</title>
+
+  <!-- Google Fonts & Font Awesome -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+  <style>
+    /* CSS Variables for light & dark themes */
+    :root {
+      --font-sans: 'Inter', sans-serif;
+      --color-bg: #f4f4f9;
+      --color-surface: #ffffff;
+      --color-text: #333333;
+      --color-primary: #00bcd4;
+      --color-accent: #1e1e2f;
+      --transition: 0.3s ease-in-out;
+    }
+
+    [data-theme="dark"] {
+      --color-bg: #121218;
+      --color-surface: #1e1e2f;
+      --color-text: #e0e0e0;
+      --color-primary: #4dd0e1;
+      --color-accent: #e0f7fa;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      transition: var(--transition);
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: var(--font-sans);
+      background-color: var(--color-bg);
+      color: var(--color-text);
+      line-height: 1.6;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      background-color: var(--color-surface);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      z-index: 10;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.75rem;
+      color: var(--color-accent);
+    }
+
+    .theme-toggle {
+      background: none;
+      border: none;
+      color: var(--color-primary);
+      font-size: 1.25rem;
+      cursor: pointer;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+
+    @media (min-width: 600px) {
+      main {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    section {
+      background-color: var(--color-surface);
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 0.6s forwards;
+    }
+
+    section:nth-child(1) { animation-delay: 0.1s; }
+    section:nth-child(2) { animation-delay: 0.3s; }
+    section:nth-child(3) { animation-delay: 0.5s; }
+    section:nth-child(4) { animation-delay: 0.7s; }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    h2 {
+      margin-top: 0;
+      font-size: 1.5rem;
+      color: var(--color-accent);
+      display: flex;
+      align-items: center;
+    }
+
+    h2 .fas {
+      margin-right: 0.5rem;
+      color: var(--color-primary);
+    }
+
+    .highlight {
+      background: linear-gradient(135deg, var(--color-primary)10%, var(--color-accent)90%);
+      color: #fff;
+      border-left: none;
+    }
+
+    section:hover {
+      transform: scale(1.02);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    }
+
+    .cta {
+      grid-column: 1 / -1;
+      text-align: center;
+      margin-top: 1rem;
+    }
+
+    .cta a {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background-color: var(--color-primary);
+      color: #fff;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background-color var(--transition);
+    }
+
+    .cta a:hover {
+      background-color: var(--color-accent);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: var(--color-surface);
+      color: var(--color-text);
+      font-size: 0.875rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body data-theme="light">
+
+  <header>
+    <h1>About VoltNexis</h1>
+    <button class="theme-toggle" aria-label="Toggle dark/light mode">
+      <i class="fas fa-moon"></i>
+    </button>
+  </header>
+
+  <main>
+    <section>
+      <h2><i class="fas fa-rocket"></i> Our Mission</h2>
+      <p>VoltNexis is a one-person project built with a single mission: to give everyone access to powerful digital tools — <strong>free</strong>, <strong>unlimited</strong>, <strong>secure</strong>, and <strong>ad-free</strong>.</p>
+    </section>
+
+    <section>
+      <h2><i class="fas fa-globe"></i> Why It Matters</h2>
+      <p>Many people can’t afford expensive apps, limited trials, or slow services. VoltNexis exists to break those barriers and make useful technology available to everyone, no matter who they are or where they come from.</p>
+    </section>
+
+    <section class="highlight">
+      <h2><i class="fas fa-lightbulb"></i> How It's Built</h2>
+      <p>Built and maintained independently, hosted on GitHub to avoid costs and tracking — this platform is part of a quiet revolution in access and fairness.</p>
+    </section>
+
+    <section>
+      <h2><i class="fas fa-bullseye"></i> What Drives Us</h2>
+      <p>No team. No big funding. Just purpose.</p>
+      <p>You don’t need to know who’s behind it. Just know it’s made for <strong>you</strong>.</p>
+    </section>
+
+    <div class="cta">
+      <a href="#tools">Explore Our Tools</a>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 VoltNexis. Built with purpose, powered by passion.
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.theme-toggle');
+    const body = document.body;
+    const icon = toggle.querySelector('i');
+
+    toggle.addEventListener('click', () => {
+      const isDark = body.getAttribute('data-theme') === 'dark';
+      body.setAttribute('data-theme', isDark ? 'light' : 'dark');
+      icon.classList.toggle('fa-sun', isDark);
+      icon.classList.toggle('fa-moon', !isDark);
+    });
+  </script>
+</body>
+</html>
