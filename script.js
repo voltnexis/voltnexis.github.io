@@ -24,9 +24,9 @@ const serviceUrls = {
     'downloader': 'https://voltnexis.github.io/downloader',
     'tools': 'https://voltnexis.github.io/tools',
     'wandermatch': 'https://voltnexis.github.io/wandermatch',
-    'themes': 'https://voltnexis.github.io/themes'
-    'vidtool': 'https://voltnexis.github.io/vidtool'
-    'os': 'https://voltnexis.github.io/os'
+    'themes': 'https://voltnexis.github.io/themes',
+    'vidtool': 'https://voltnexis.github.io/vidtool',
+    'os': 'https://voltnexis.github.io/os',
     'hub': 'https://voltnexis.github.io/hub'
 };
 
