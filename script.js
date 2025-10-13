@@ -10,7 +10,7 @@ const serviceUrls = {
     'doconvert': 'https://voltnexis.github.io/doconvert',
     'songs': 'https://voltnexis.github.io/songs',
     'imgtool': 'https://voltnexis.github.io/imgtool',
-    'webcreator': 'https://voltnexisstudio.vercel.app',
+    'studio': 'https://voltnexisstudio.vercel.app',
     'codexaura': 'https://codexaura.vercel.app',
     'apps': 'https://voltnexis.github.io/apps',
     'servetracko': 'https://servetracko.vercel.app',
