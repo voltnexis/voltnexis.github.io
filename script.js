@@ -1,6 +1,7 @@
 // Service redirection URLs
 const serviceUrls = {
     'eshop': 'https://voltnexis.github.io/shop',
+    'examapply': 'https://voltnexis.github.io/examapply',
     'promptverse': 'https://voltnexis.github.io/promptverse',
     'web2app': 'https://voltnexis.github.io/web2app',
     'builds': 'https://voltnexis.github.io/builds',
