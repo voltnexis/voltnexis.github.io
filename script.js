@@ -5,7 +5,7 @@ const serviceUrls = {
     'promptverse': 'https://voltnexis.github.io/promptverse',
     'web2app': 'https://voltnexis.github.io/web2app',
     'builds': 'https://voltnexis.github.io/builds',
-    'wallpapers': 'https://voltnexis.github.io/wallpapers',
+    'images': 'https://voltnexis.github.io/images',
     'timer': 'https://voltnexis.github.io/timer',
     'qoutes': 'https://voltnexis.github.io/qoutes',
     'doconvert': 'https://voltnexis.github.io/doconvert',
